@@ -1,0 +1,9 @@
+namespace HappyClinic
+{
+    [default_interface]
+    runtimeclass EditUser : Windows.UI.Xaml.Controls.Page
+    {
+        EditUser();
+        Int32 MyProperty;
+    }
+}

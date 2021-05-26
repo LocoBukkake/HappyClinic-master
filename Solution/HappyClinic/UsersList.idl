@@ -1,0 +1,9 @@
+namespace HappyClinic
+{
+    [default_interface]
+    runtimeclass UsersList : Windows.UI.Xaml.Controls.Page
+    {
+        UsersList();
+        Int32 MyProperty;
+    }
+}

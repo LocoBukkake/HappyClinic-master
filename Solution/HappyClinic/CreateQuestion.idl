@@ -1,0 +1,9 @@
+namespace HappyClinic
+{
+    [default_interface]
+    runtimeclass CreateQuestion : Windows.UI.Xaml.Controls.Page
+    {
+        CreateQuestion();
+        Int32 MyProperty;
+    }
+}

@@ -1,0 +1,9 @@
+namespace HappyClinic
+{
+    [default_interface]
+    runtimeclass SetDiagnosisToPatient : Windows.UI.Xaml.Controls.Page
+    {
+        SetDiagnosisToPatient();
+        Int32 MyProperty;
+    }
+}

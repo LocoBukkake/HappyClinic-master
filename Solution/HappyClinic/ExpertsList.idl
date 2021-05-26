@@ -1,0 +1,9 @@
+namespace HappyClinic
+{
+    [default_interface]
+    runtimeclass ExpertsList : Windows.UI.Xaml.Controls.Page
+    {
+        ExpertsList();
+        Int32 MyProperty;
+    }
+}

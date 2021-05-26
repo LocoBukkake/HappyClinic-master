@@ -1,0 +1,137 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <ApplicationDefinition Include="App.xaml" />
+  </ItemGroup>
+  <ItemGroup>
+    <Midl Include="App.idl" />
+    <Midl Include="MainPage.idl" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="pch.cpp" />
+    <ClCompile Include="App.cpp" />
+    <ClCompile Include="MainPage.cpp" />
+    <ClCompile Include="$(GeneratedFilesDir)module.g.cpp" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="pch.h" />
+    <ClInclude Include="Positions.h">
+      <Filter>Structures</Filter>
+    </ClInclude>
+    <ClInclude Include="FileSystemHelper.h">
+      <Filter>Classes</Filter>
+    </ClInclude>
+    <ClInclude Include="User.h">
+      <Filter>Classes</Filter>
+    </ClInclude>
+    <ClInclude Include="Administrator.h">
+      <Filter>Classes</Filter>
+    </ClInclude>
+    <ClInclude Include="Doctor.h">
+      <Filter>Classes</Filter>
+    </ClInclude>
+    <ClInclude Include="Expert.h">
+      <Filter>Classes</Filter>
+    </ClInclude>
+    <ClInclude Include="Patient.h">
+      <Filter>Classes</Filter>
+    </ClInclude>
+    <ClInclude Include="SystemDatabase.h">
+      <Filter>Classes</Filter>
+    </ClInclude>
+    <ClInclude Include="Question.h">
+      <Filter>Classes</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <Image Include="Assets\Wide310x150Logo.scale-200.png">
+      <Filter>Assets</Filter>
+    </Image>
+    <Image Include="Assets\StoreLogo.png">
+      <Filter>Assets</Filter>
+    </Image>
+    <Image Include="Assets\Square150x150Logo.scale-200.png">
+      <Filter>Assets</Filter>
+    </Image>
+    <Image Include="Assets\Square44x44Logo.targetsize-24_altform-unplated.png">
+      <Filter>Assets</Filter>
+    </Image>
+    <Image Include="Assets\Square44x44Logo.scale-200.png">
+      <Filter>Assets</Filter>
+    </Image>
+    <Image Include="Assets\SplashScreen.scale-200.png">
+      <Filter>Assets</Filter>
+    </Image>
+    <Image Include="Assets\LockScreenLogo.scale-200.png">
+      <Filter>Assets</Filter>
+    </Image>
+  </ItemGroup>
+  <ItemGroup>
+    <AppxManifest Include="Package.appxmanifest" />
+  </ItemGroup>
+  <ItemGroup>
+    <Filter Include="Assets">
+      <UniqueIdentifier>{e48dc53e-40b1-40cb-970a-f89935452892}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Views">
+      <UniqueIdentifier>{34057aed-b86c-4c8a-ba2f-2ba232c0f2cf}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Classes">
+      <UniqueIdentifier>{71ff4941-0b36-49a9-914e-ff7e21c7cd51}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Structures">
+      <UniqueIdentifier>{294e7fe2-b4d3-4277-8edc-d1942e162606}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="PropertySheet.props" />
+    <None Include="packages.config" />
+  </ItemGroup>
+  <ItemGroup>
+    <Text Include="readme.txt" />
+  </ItemGroup>
+  <ItemGroup>
+    <Page Include="MainPage.xaml">
+      <Filter>Views</Filter>
+    </Page>
+    <Page Include="Register.xaml">
+      <Filter>Views</Filter>
+    </Page>
+    <Page Include="Login.xaml">
+      <Filter>Views</Filter>
+    </Page>
+    <Page Include="UsersList.xaml">
+      <Filter>Views</Filter>
+    </Page>
+    <Page Include="EditUser.xaml">
+      <Filter>Views</Filter>
+    </Page>
+    <Page Include="Questions.xaml">
+      <Filter>Views</Filter>
+    </Page>
+    <Page Include="CreateQuestion.xaml">
+      <Filter>Views</Filter>
+    </Page>
+    <Page Include="EditQuestion.xaml">
+      <Filter>Views</Filter>
+    </Page>
+    <Page Include="DoctorMainPage.xaml">
+      <Filter>Views</Filter>
+    </Page>
+    <Page Include="ExpertsList.xaml">
+      <Filter>Views</Filter>
+    </Page>
+    <Page Include="PatientsList.xaml">
+      <Filter>Views</Filter>
+    </Page>
+    <Page Include="PatientMainPage.xaml">
+      <Filter>Views</Filter>
+    </Page>
+    <Page Include="SetDiagnosisToPatient.xaml">
+      <Filter>Views</Filter>
+    </Page>
+    <Page Include="CreateUsers.xaml">
+      <Filter>Views</Filter>
+    </Page>
+  </ItemGroup>
+</Project>

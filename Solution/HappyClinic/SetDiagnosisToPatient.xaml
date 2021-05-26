@@ -1,0 +1,22 @@
+﻿<Page
+    x:Class="HappyClinic.SetDiagnosisToPatient"
+    xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+    xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+    xmlns:local="using:HappyClinic"
+    xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+    xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+    mc:Ignorable="d">
+
+    <StackPanel Orientation="Vertical" HorizontalAlignment="Center" Margin="20,20,20,20">
+        <TextBlock HorizontalAlignment="Center" Text="Постановка Диагноза." FontSize="30"/>
+        <StackPanel Orientation="Vertical" HorizontalAlignment="Center" Margin="20,20,20,20">
+            <TextBlock HorizontalAlignment="Left" Text="ФИО:" Margin="10,0,10,0"/>
+            <TextBlock x:Name="fullNameTextBlock" HorizontalAlignment="Left" Text="" Margin="20,0,10,0"/>
+            <TextBlock HorizontalAlignment="Left" Text="Дата рождения:" Margin="10,0,10,0"/>
+            <TextBlock x:Name="birthDateTextBlock" HorizontalAlignment="Left" Text="" Margin="20,0,10,0"/>
+            <TextBox x:Name="diagnosisTextBox" Width="400" PlaceholderText="Диагноз..." Margin="10,10,10,10"/>
+            <Button x:Name="setDiagnosisSubmitButton" Content="Поставить диагонз" HorizontalAlignment="Right" Margin="10,10,10,10" Click="setDiagnosisSubmitButton_Click"/>
+        </StackPanel>
+        <TextBlock x:Name="setDiagnosisResultTextBlock" HorizontalAlignment="Center" Foreground="Orange" FontSize="15"/>
+    </StackPanel>
+</Page>

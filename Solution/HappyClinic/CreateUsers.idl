@@ -1,0 +1,9 @@
+namespace HappyClinic
+{
+    [default_interface]
+    runtimeclass CreateUsers : Windows.UI.Xaml.Controls.Page
+    {
+        CreateUsers();
+        Int32 MyProperty;
+    }
+}
